@@ -1,0 +1,10 @@
+.example {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+}

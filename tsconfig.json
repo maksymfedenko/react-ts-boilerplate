@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "es5",
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "lib": [
+      "es7",
+      "dom"
+    ],
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
