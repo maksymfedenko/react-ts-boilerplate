@@ -66,7 +66,15 @@ module.exports = merge([
                 sourceMap: true,
               },
             },
-            'sass-loader',
+            {
+              loader: 'sass-loader',
+              options: {
+                outputStyle: 'expanded',
+                sourceMap: true,
+                data: `@import "${PATHS.src}/scss/variables";`,
+                includePaths: [ PATHS.src ]
+              },
+            },
           ],
         },
       ],
