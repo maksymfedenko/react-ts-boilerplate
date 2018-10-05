@@ -13,6 +13,7 @@
       "dom"
     ],
     "noUnusedParameters": true,
+    "noUnusedLocals": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true
   }

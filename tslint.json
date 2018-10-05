@@ -34,8 +34,7 @@
       "always"
     ],
     "align": false,
-    "function-name": false,
-    "no-unused-vars": true
+    "function-name": false
   },
   "rulesDirectory": [
     "tslint-plugin-prettier"

@@ -75,10 +75,10 @@ const enhance = connect<IConnectedProps, IConnectedActions>(
     loading,
   })),
   {
-    incrementCounter,
-    incrementCounterAsync,
     decrementCounter,
     decrementCounterAsync,
+    incrementCounter,
+    incrementCounterAsync,
   }
 );
 
